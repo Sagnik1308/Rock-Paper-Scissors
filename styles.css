@@ -1,0 +1,27 @@
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:50px;
+}
+img{
+    width: 150px;
+    height:150px;
+}
+button{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin:50px;
+    background-size: cover;
+}
+#Rock{
+    background-image: url(img/Rock.png);
+}
+#Paper{
+    background-image: url(img/Paper.jpg);
+}
+#Scissors{
+    background-image: url(img/Scissors.webp);
+}
